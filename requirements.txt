@@ -1,0 +1,9 @@
+# For importing data:
+numpy
+pandas
+matplotlib
+
+# For options pricing:
+quantlib-python  
+transformers
+scipy  # Needed for statistical functions (e.g., PDF & CDF computations)
