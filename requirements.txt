@@ -1,9 +1,6 @@
-# For importing data:
-numpy
-pandas
-matplotlib
-
-# For options pricing:
-quantlib-python  
-transformers
-scipy  # Needed for statistical functions (e.g., PDF & CDF computations)
+transformers>=4.39
+datasets>=3.8
+torch>=2.0
+scikit-learn>=1.4
+evaluate>=0.4          
+tqdm

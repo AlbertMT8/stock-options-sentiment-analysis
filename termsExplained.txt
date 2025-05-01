@@ -1,0 +1,47 @@
+Call Option
+    What it is: A contract that gives you the right (but not the obligation) to buy an underlying stock at a specified price (the strike price) before a certain date.
+    Why it matters: Call options let you profit from potential upside in a stock’s price with less capital outlay compared to buying the stock outright.
+
+
+Put Option
+    What it is: A contract that gives you the right (but not the obligation) to sell an underlying asset at the strike price before a certain date.
+    Why it matters: Put options provide downside protection if you own the stock, or let you bet on a drop in the stock’s price without short-selling.
+
+
+The 5 Greeks (Delta, Gamma, Theta, Vega, Rho)
+    What they are: Measures of an option’s price sensitivity to various factors:
+
+
+    Delta: Change in the underlying stock’s price.
+
+
+    Gamma: Rate of change of delta.
+
+
+    Theta: Time decay of the option. It measures how much the option's value is expected to decrease each day as it gets closer to its expiration date.
+
+
+    Vega: Sensitivity to changes in implied volatility. Higher vega means the option's price is more reactive to volatility changes.
+
+
+    Rho: Sensitivity to interest rate changes.
+
+
+    Why they matter: They help traders understand how an option’s value is likely to move in response to different market conditions, so they can manage risk more effectively.
+
+
+
+Implied Volatility (IV)
+    What it is: The market’s forecast of a stock’s potential price movement, derived from the option’s current market price.
+    Why it matters: IV directly affects an option’s price—higher implied volatility generally increases option premiums (the price to buy an option), reflecting higher expected risk or uncertainty about the price.
+
+
+
+Strike Price
+    What it is: The price at which you can exercise the option (buy for calls or sell for puts).
+    Why it matters: Determines the payoff if the option is exercised; choosing the right strike price is crucial to balancing cost and potential profit.
+
+
+
+Black-Scholes Formula
+    A mathematical model to calculate the price of an option.
