@@ -4,3 +4,5 @@ torch>=2.0
 scikit-learn>=1.4
 evaluate>=0.4          
 tqdm
+tkinter
+newspaper3k

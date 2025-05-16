@@ -55,7 +55,7 @@ def compute_metrics(eval_pred):
 # ─── training arguments ──────────────────────────────────────────────
 args = TrainingArguments(
     output_dir        = OUT,
-    evaluation_strategy = "epoch",
+    eval_strategy = "epoch",
     save_strategy       = "epoch",
     save_total_limit    = 2,
     learning_rate       = LR,
