@@ -1,1 +1,8 @@
 venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.safetensors
+*.bin
+model/
