@@ -6,3 +6,4 @@ __pycache__/
 *.safetensors
 *.bin
 model/
+path/to/your_file # be sure Git ignores it next time
