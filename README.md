@@ -79,8 +79,6 @@ FinBERT keeps BERT’s architecture but is *domain-adapted* on ~200 k finance he
 (α is calibrated on historical earnings moves).  
 The adjusted IV feeds Black-Scholes to update Δ, Γ, Θ, Vega, ρ.
 
-See `finetuning.py` and the notebook in `docs/` for full details.
-
 ---
 
 ## Contributing
