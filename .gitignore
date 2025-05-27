@@ -8,3 +8,4 @@ __pycache__/
 model/
 path/to/your_file # be sure Git ignores it next time
 requirements.txt
+.DS_Store
