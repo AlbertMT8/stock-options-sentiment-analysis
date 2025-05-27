@@ -30,34 +30,23 @@ pip install -r requirements.txt
 ## Quick Start
 ### Command line
 ~~~bash
-python finalAnalysis.py \
-  --ticker AAPL \
-  --option "CALL 200 2024-06-21" \
-  --news_url "https://www.bloomberg.com/..." \
-  --risk_free 0.045
+python gui_app.py 
 ~~~
-Prints the news sentiment, IV adjustment, updated Greeks, and a plain-English trade comment.
+Prints the GUI interface where the user inputs the news article and options metrics. Returns the IV adjustment, updated Greeks, and a trade analysis in a separate window.
 
-### GUI
-~~~bash
-python gui_app.py
-~~~
-Fill in the fields; results appear in a pop-up window.
-
----
 
 ## Repository Layout
 ~~~text
 BlackScholes.py            # Pricing & Greeks helpers
 sentimentMapping.py        # sentiment → IV conversion
-finalAnalysis.py           # end-to-end workflow
+finalAnalysis.py           # decision making and analysis 
 finetuning.py              # FinBERT fine-tuning script
 gui_app.py                 # tkinter interface
 dataCleansing.py           # text-preprocessing pipeline
 baselineModelEvaluation.py # model benchmarks
+requirements.txt           # required packages
 ~~~
 
----
 
 ## BERT Primer
 **BERT** (Bidirectional Encoder Representations from Transformers) learns contextual word embeddings by reading text in *both* directions.
